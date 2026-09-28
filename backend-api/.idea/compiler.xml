@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.46/a5cfe99fdf320e84955ef653f2ce1bf789d11385/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="backend-api.catalog_service.test" />
+        <module name="backend-api.identity_service.main" />
+        <module name="backend-api.identity_service.test" />
+        <module name="backend-api.lending_service.main" />
+        <module name="backend-api.lending_service.test" />
+        <module name="backend-api.catalog_service.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="25">
+      <module name="catalog_service" target="25" />
+      <module name="catalog_service.main" target="25" />
+      <module name="catalog_service.test" target="25" />
+      <module name="gateway" target="25" />
+      <module name="gateway.main" target="25" />
+      <module name="gateway.test" target="25" />
+      <module name="identity_service" target="25" />
+      <module name="identity_service.main" target="25" />
+      <module name="identity_service.test" target="25" />
+      <module name="lending_service" target="25" />
+      <module name="lending_service.main" target="25" />
+      <module name="lending_service.test" target="25" />
+      <module name="notification_service" target="25" />
+      <module name="notification_service.main" target="25" />
+      <module name="notification_service.test" target="25" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="backend-api.catalog_service" options="-parameters" />
+      <module name="backend-api.catalog_service.main" options="-parameters" />
+      <module name="backend-api.catalog_service.test" options="-parameters" />
+      <module name="backend-api.gateway" options="-parameters" />
+      <module name="backend-api.gateway.main" options="-parameters" />
+      <module name="backend-api.gateway.test" options="-parameters" />
+      <module name="backend-api.identity_service" options="-parameters" />
+      <module name="backend-api.identity_service.main" options="-parameters" />
+      <module name="backend-api.identity_service.test" options="-parameters" />
+      <module name="backend-api.lending_service" options="-parameters" />
+      <module name="backend-api.lending_service.main" options="-parameters" />
+      <module name="backend-api.lending_service.test" options="-parameters" />
+      <module name="backend-api.notification_service" options="-parameters" />
+      <module name="backend-api.notification_service.main" options="-parameters" />
+      <module name="backend-api.notification_service.test" options="-parameters" />
+      <module name="catalog_service" options="-parameters" />
+      <module name="catalog_service.main" options="-parameters" />
+      <module name="catalog_service.test" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="gateway.main" options="-parameters" />
+      <module name="gateway.test" options="-parameters" />
+      <module name="identity_service" options="-parameters" />
+      <module name="identity_service.main" options="-parameters" />
+      <module name="identity_service.test" options="-parameters" />
+      <module name="lending_service" options="-parameters" />
+      <module name="lending_service.main" options="-parameters" />
+      <module name="lending_service.test" options="-parameters" />
+      <module name="notification_service" options="-parameters" />
+      <module name="notification_service.main" options="-parameters" />
+      <module name="notification_service.test" options="-parameters" />
+    </option>
+  </component>
+</project>
