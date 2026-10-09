@@ -1,10 +1,10 @@
 rootProject.name = "backend-api"
 include(
+    ":common-lib",
     ":gateway",
-    ":identity_service",
-    ":catalog_service",
-    ":lending_service",
-    ":notification_service"
+    ":identity-service",
+    ":catalog-service",
+    ":lending-service",
+    ":notification-service",
 )
 
-include("common_lib")

@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/identity_service/backend-api.identity_service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/identity_service/backend-api.identity_service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-service/backend-api.catalog-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-service/backend-api.catalog-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/catalog-service/backend-api.catalog-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/catalog-service/backend-api.catalog-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-lib/backend-api.common-lib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common-lib/backend-api.common-lib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/identity-service/backend-api.identity-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/identity-service/backend-api.identity-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/identity-service/backend-api.identity-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/identity-service/backend-api.identity-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lending-service/backend-api.lending-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lending-service/backend-api.lending-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lending-service/backend-api.lending-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lending-service/backend-api.lending-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend-api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend-api.test.iml" />
     </modules>
   </component>
 </project>
