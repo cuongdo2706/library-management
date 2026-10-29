@@ -23,12 +23,12 @@ public class GatewayRouteConfig {
                                 .stripPrefix(2)
                                 .prefixPath("/api"))
                         .uri("lb://lending-service"))
-                .route("identity-route",r -> r
-                        .path("/api/identity/**")
+                .route("user-route",r -> r
+                        .path("/api/user/**")
                         .filters(f -> f
                                 .stripPrefix(2)
                                 .prefixPath("/api"))
-                        .uri("lb://identity-service"))
+                        .uri("lb://user-service"))
                 .build();
     }
 }

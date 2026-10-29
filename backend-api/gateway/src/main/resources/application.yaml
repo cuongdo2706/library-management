@@ -5,9 +5,10 @@ spring:
     consul:
       discovery:
         health-check-path: /actuator/health
-#  data:
-#    redis:
-#      port: ${REDIS_DB_PORT}
-#      host: ${REDIS_DB_HOST}
+  data:
+    redis:
+      port: ${REDIS_DB_PORT}
+      host: ${REDIS_DB_HOST}
+      database: ${REDIS_DB_NUMBER}
 server:
   port: ${SERVER_PORT}
